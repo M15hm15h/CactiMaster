@@ -9,3 +9,20 @@ class Kaki
     }
     public string GetName() { return this.name; }
 }
+class Program
+{
+    static void Main()
+    {
+        Kaki kaki = new Kaki("Kaki", true);
+        Console.WriteLine($"Nama saya adalah {kaki.GetName()}");
+        
+        if (kaki.IsKaki)
+        {
+            Console.WriteLine("Saya adalah Kaki");
+        }
+        else
+        {
+            Console.WriteLine("Saya bukan Kaki");
+        }
+    }
+}
