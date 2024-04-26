@@ -18,7 +18,7 @@ class Program
         
         if (kaki.IsKaki)
         {
-            Console.WriteLine("Saya adalah Kaki");
+            Console.WriteLine("Saya abdallah Kaki");
         }
         else
         {
